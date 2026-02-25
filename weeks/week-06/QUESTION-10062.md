@@ -1,12 +1,10 @@
 # 題目 10062
 
-**題名**：UVA 10062
+**題名**: UVA 10062
 
 **相關連結**:
 - [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a055)
 - [Yui Huang 題解](https://yuihuang.com/zj-a055/)
-
----
 
 ## 題目敘述
 
@@ -19,3 +17,19 @@ N (2 <= N <= 80,000) cows have unique brands in the range 1..N. In a spectacular
 ## 輸出說明
 
 * Lines 1..N: Each of the N lines of output tells the brand of a cow in line. Line #1 of the output tells the brand of the first cow in line; line 2 tells the brand of the second cow; and so on.
+
+---
+
+## 解題思路
+
+*請填入你的解題思路*
+
+## 解題代碼
+
+```python
+# 你的代碼這裡
+```
+
+## 測試用例
+
+*測試輸入與預期輸出*

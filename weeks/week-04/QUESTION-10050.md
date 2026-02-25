@@ -1,14 +1,21 @@
 # 題目 10050
 
-**題名**：UVA 10050
+**題名**: UVA 10050
+
+>
+> 【狀態】題目敘述、輸入說明、輸出說明待補充
+>
+> 【建議】請參考以下連結自行補充：
+> - [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a043)
+> - [UVA Online Judge](https://uva.onlinejudge.org/external/10050.pdf)
+> - [Yui Huang 題解參考](https://yuihuang.com/cpe-level-1/)
 
 **相關連結**:
 - [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a043)
 - [UVA Online Judge](https://uva.onlinejudge.org/external/10050.pdf)
 
----
-
 ## 題目敘述
+
 
 一個社會研究組織採用了一組簡單的參數來模擬我們國家政黨運作的行為。
 參數之一是一個正整數h，h稱為罷會(hartal)參數，它表示同一個政黨連續兩次連續罷會的間隔天數。
@@ -24,6 +31,7 @@
 
 ## 輸入說明
 
+
 輸入第一行有一個整數T，代表有T組測資。
 每組測資第一行包含一個整數N (7 ≤ N ≤ 3650)，N代表模擬的天數。
 下一行包含一個整數P (1 ≤ P ≤ 100)，表示有幾個政黨。
@@ -32,3 +40,20 @@
 ## 輸出說明
 
 對於每組測資，輸出這N天內因為罷會損失多少工作天。
+
+
+---
+
+## 解題思路
+
+*請填入你的解題思路*
+
+## 解題代碼
+
+```python
+# 你的代碼這裡
+```
+
+## 測試用例
+
+*測試輸入與預期輸出*

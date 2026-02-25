@@ -1,14 +1,21 @@
 # 題目 10057
 
-**題名**：UVA 10057
+**題名**: UVA 10057
+
+>
+> 【狀態】題目敘述、輸入說明、輸出說明待補充
+>
+> 【建議】請參考以下連結自行補充：
+> - [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a050)
+> - [UVA Online Judge](https://uva.onlinejudge.org/external/10057.pdf)
+> - [Yui Huang 題解參考](https://yuihuang.com/cpe-level-1/)
 
 **相關連結**:
 - [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a050)
 - [UVA Online Judge](https://uva.onlinejudge.org/external/10057.pdf)
 
----
-
 ## 題目敘述
+
 
 今年是公元2200年。
 在過去的200年中，科學取得了很大進步。
@@ -26,12 +33,30 @@
 
 ## 輸入說明
 
+
 輸入包含多組測資。
 每組測資第一行為數字n (0 接下來有n個數字，所有數字都小於65536。
 
 ## 輸出說明
 
+
 對於每組測資，輸出三個整數。
 第一個數字是能得到該算式最小值的A。
 第二個數字是|Xi − A|為最小值的數量。
 第三行數字是可能有幾種最小值。
+
+---
+
+## 解題思路
+
+*請填入你的解題思路*
+
+## 解題代碼
+
+```python
+# 你的代碼這裡
+```
+
+## 測試用例
+
+*測試輸入與預期輸出*

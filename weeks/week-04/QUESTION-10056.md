@@ -1,14 +1,21 @@
 # 題目 10056
 
-**題名**：UVA 10056
+**題名**: UVA 10056
+
+>
+> 【狀態】題目敘述、輸入說明、輸出說明待補充
+>
+> 【建議】請參考以下連結自行補充：
+> - [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a049)
+> - [UVA Online Judge](https://uva.onlinejudge.org/external/10056.pdf)
+> - [Yui Huang 題解參考](https://yuihuang.com/cpe-level-1/)
 
 **相關連結**:
 - [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a049)
 - [UVA Online Judge](https://uva.onlinejudge.org/external/10056.pdf)
 
----
-
 ## 題目敘述
+
 
 機率一直是電腦演算法不可或缺的一部分。
 在確定性算法無法在短時間內解決問題的地方，概率性算法已應運而生。
@@ -23,6 +30,7 @@
 
 ## 輸入說明
 
+
 一開始有一個整數S (S ≤ 1000)，表示接下來有多少組輸入。
 接下來的S行。
 每行包含一個整數N (N ≤ 1000)，一個浮點數p，一個整數i。
@@ -32,5 +40,22 @@ N表示玩家數，p表示一次成功事件發生的機率，i (i ≤ N) 表示
 
 ## 輸出說明
 
+
 對於每組輸入，輸出第i個玩家獲勝的機率。
 機率精確到小數點後四位。
+
+---
+
+## 解題思路
+
+*請填入你的解題思路*
+
+## 解題代碼
+
+```python
+# 你的代碼這裡
+```
+
+## 測試用例
+
+*測試輸入與預期輸出*
