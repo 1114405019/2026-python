@@ -36,14 +36,57 @@ HaluaRuti 城裡有一家奇特的旅館，擁有**無限多間房間**。
 
 ## 解題思路
 
-*請填入你的解題思路*
+這題要求計算第 D 天住宿的人數。從起始團人數 S 開始，團的人數會依序增加 1 人，且每個團住的天數等於該團人數。
+
+累計天數公式為從 S 開始的等差數列：T(k) = S + (S+1) + ... + k = k(k+1)/2 - (S-1)S/2。給定 D，求最小的 k 使 T(k) >= D，該 k 即為第 D 天的團人數。
 
 ## 解題代碼
 
 ```python
-# 你的代碼這裡
+import sys
+
+
+def find_group_size(start, day):
+    offset = (start - 1) * start // 2
+    target = day + offset
+    lo = start
+    hi = max(start, int((2 * target) ** 0.5) + 3)
+    while lo < hi:
+        mid = (lo + hi) // 2
+        if mid * (mid + 1) // 2 >= target:
+            hi = mid
+        else:
+            lo = mid + 1
+    return lo
+
+
+def main():
+    lines = sys.stdin.read().strip().split()
+    if not lines:
+        return
+    out_lines = []
+    for i in range(0, len(lines), 2):
+        try:
+            s = int(lines[i])
+            d = int(lines[i + 1])
+        except (IndexError, ValueError):
+            break
+        out_lines.append(str(find_group_size(s, d)))
+    sys.stdout.write("\n".join(out_lines))
+
+
+if __name__ == "__main__":
+    main()
 ```
 
 ## 測試用例
 
-*測試輸入與預期輸出*
+```
+輸入:
+4 1
+5 6
+
+輸出:
+4
+6
+```
