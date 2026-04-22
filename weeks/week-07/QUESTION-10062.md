@@ -1,33 +1,34 @@
-# 題目 10062
+# UVA 10062 - Tell me the frequencies!
 
-**題名**: UVA 10062
+## 題目描述
 
-**相關連結**:
-- [ZeroJudge 題目頁面](https://zerojudge.tw/ShowProblem?problemid=a055)
-- [Yui Huang 題解](https://yuihuang.com/zj-a055/)
-
-## 題目敘述
-
-有 N 頭（2 ≤ N ≤ 80,000）乳牛，每頭乳牛都有一個在 1 到 N 範圍內的獨特編號。
-牠們在晚餐前去附近的「飲水站」喝了太多啤酒，一時判斷失準。
-排隊吃晚飯時，牠們沒有依照編號從小到大的正確順序排列。
-不幸的是，農夫 FJ 無法直接幫牠們排序，而且他的觀察能力也不太好。
-他沒有記錄每頭乳牛的編號，而是統計了一個奇怪的數據：對於隊伍中的每頭乳牛，他知道在該乳牛前面、編號比它小的乳牛有幾頭。
-請根據這份資料，告訴 FJ 乳牛的正確排列順序。
+Given a line of text, you will have to find out the frequencies of the ASCII characters present in it. The frequencies should be ordered by ASCII codes.
 
 ## 輸入說明
 
-- 第 1 行：一個整數 N。
-- 第 2 至 N 行：共 N-1 行，每行描述該位置的乳牛前面、編號比它小的乳牛數量。
-  第一頭乳牛前面沒有任何乳牛，因此不列出。
-  第 2 行描述第 2 個位置的乳牛前面編號較小的牛數；第 3 行描述第 3 個位置的情形，以此類推。
+The input file contains several lines of text. Each line will contain any of the 95 printable ASCII characters (32-126).
 
 ## 輸出說明
 
-- 共 N 行，每行輸出該位置乳牛的編號。
-  第 1 行為隊伍第 1 個位置的乳牛編號，第 2 行為第 2 個位置，以此類推。
+For each line of input, print the ASCII value of the character, a blank space, and the frequency of that character. The characters should be ordered by their frequencies (ascending) and for characters with same frequency, by their ASCII values (descending).
 
----
+## 範例輸入
+
+```
+AAABBC
+122333
+```
+
+## 範例輸出
+
+```
+67 1
+66 2
+65 3
+51 1
+50 2
+49 3
+```
 
 ## 解題思路
 
