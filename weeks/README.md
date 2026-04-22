@@ -21,7 +21,7 @@
 | [Week 07](./week-07/README.md) | 檔案 I/O 基礎 | 5 | ⏳ |
 | [Week 08](./week-08/README.md) | 考前複習 | 5 | ⏳ |
 | [Week 09](./week-09/README.md) | 資料編碼 | - | - |
-| [Week 10](./week-10/README.md) | 函式進階 | 5 | ⏳ |
+| [Week 10](week-09/solutions/1114405019/README.md) | 函式進階 | 5 | ⏳ |
 | [Week 11](./week-11/README.md) | 類別與模組 | 5 | ⏳ |
 | [Week 12](./week-12/README.md) | 網路與共時 | 5 | ⏳ |
 | [Week 13](./week-13/README.md) | 綜合專案 | 5 | ⏳ |
