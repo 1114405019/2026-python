@@ -18,6 +18,28 @@
 | 490 | UVA 490 | ⭐ | [QUESTION-490.md](./QUESTION-490.md) |
 
 
+## Pygame MVP 功能清單
+
+- 支援 `L/R/F` 指令操作機器人
+- `scent` 會記錄掉落前的位置與方向
+- 越界時顯示 `LOST` 並保留當前座標
+- `N` 鍵可重置新機器人，保留已記錄的 scent
+- `C` 鍵可清除所有 scent
+- HUD 顯示機器人座標、方向、LOST 狀態與 scent 數量
+
+## 資料結構說明
+
+`scent` 選擇使用 `set`，原因如下：
+
+- `set` 可以快速判斷同一個位置與方向是否已經標記過
+- 除去重複記錄，避免重複 scent 相同資料
+- 查詢速度為 O(1)，適合多次前進判斷是否應該忽略危險指令
+
+## Gameplay 截圖
+
+![gameplay](assets/gameplay.png)
+
+
 ## AI 使用方式
 
 1. 讀 {問題說明} 設計一版針對該問題的 python unit-test 程式，並加上繁體中文的註解放到 {指定目錄} 中
