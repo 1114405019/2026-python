@@ -17,7 +17,7 @@
 | [R03](./in-class/R03-xml-parse.py) | 6.3 | `ElementTree` 基本解析 |
 | [R04](./in-class/R04-encoding-hex-base64.py) | 6.9–6.10 | Hex / Base64 編碼解碼 |
 | [R05](./in-class/R05-stats-counter.py) | 6.13 | `Counter` / `defaultdict` 統計 |
-| [U01](./in-class/U01-timeit-decorator.py) | 6.1–6.3 | 計時裝飾器實作 + CSV / JSON / XML 速度比較 |
+| [U01](solutions/1114405019/U01-timeit-decorator.py) | 6.1–6.3 | 計時裝飾器實作 + CSV / JSON / XML 速度比較 |
 
 ---
 

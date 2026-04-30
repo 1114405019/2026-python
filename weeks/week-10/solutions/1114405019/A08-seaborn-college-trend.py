@@ -58,8 +58,12 @@ DEPT_TO_COLLEGE = {
 }
 
 # ── 5.11 定位資料 ─────────────────────────────────────
-HERE = Path(__file__).resolve().parent
-ZIP_PATH = HERE.parent.parent.parent / "assets" / "npu-stu-109-114-anon.zip"
+import os
+# Automatically locate the '2026-python' root folder
+current_path = Path(__file__).resolve()
+HERE = current_path.parent
+root_path = next((p for p in current_path.parents if p.name == "2026-python"), current_path.parent.parent.parent.parent)
+ZIP_PATH = root_path / "assets" / "npu-stu-109-114-anon.zip"
 assert ZIP_PATH.exists(), f"找不到：{ZIP_PATH}"
 
 
